@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 # grouping routes in the Web namespace to be together
 Route::namespace('Web')->group(function() {
